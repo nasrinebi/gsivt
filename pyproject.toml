@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gsivt"
+version = "3.3.0"
+description = "Python engine, workbook interface and tests for the GSI Monetary Valuation Tool (Florida DEP Agreement NF116)"
+readme = "README.md"
+authors = [{ name = "Nasrin Alamdari" }]
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+dependencies = ["openpyxl>=3.1"]
+
+[project.optional-dependencies]
+analysis = ["numpy>=1.24", "SALib>=1.4", "pandas>=2.0"]
+test = ["pytest>=7", "pytest-cov>=4"]
+
+[project.scripts]
+gsivt = "gsivt.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+gsivt = ["data/*.xlsx"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

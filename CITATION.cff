@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "GSI Monetary Valuation Tool (gsivt), version 3.3"
+version: 3.3.0
+date-released: 2026-10-20
+license: MIT
+authors:
+  - family-names: Alamdari
+    given-names: Nasrin
+    affiliation: Florida State University
+    orcid: "https://orcid.org/0000-0003-4102-6613"
+repository-code: "https://github.com/nasrinebi/gsivt"
+keywords:
+  - green stormwater infrastructure
+  - benefit-cost analysis
+  - nutrient crediting
+  - Florida
+  - decision support
