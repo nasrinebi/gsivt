@@ -1,0 +1,13 @@
+{
+  "title": "GSI Monetary Valuation Tool (gsivt), version 3.3",
+  "upload_type": "software",
+  "version": "3.3.0",
+  "publication_date": "2026-10-20",
+  "description": "Python engine, workbook interface, tests and the bundled spreadsheet tool (version 3.3) for benefit-cost analysis of green stormwater infrastructure with the nutrient crediting methods of the Florida ERP Applicant's Handbook Volume I (2024). The manuals, validation workbook and evaluation scripts are archived in a separate, linked Zenodo record.",
+  "creators": [
+    {"name": "Alamdari, Nasrin", "affiliation": "Florida State University", "orcid": "0000-0003-4102-6613"}
+  ],
+  "license": "MIT",
+  "keywords": ["green stormwater infrastructure", "benefit-cost analysis", "nutrient crediting", "Florida", "decision support"],
+  "notes": "This cooperative project was funded in part by the United States Environmental Protection Agency and the Florida Department of Environmental Protection under Agreement NF116 (Task 2)."
+}
